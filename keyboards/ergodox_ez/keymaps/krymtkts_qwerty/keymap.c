@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // If it accepts an argument (i.e, is a function), it doesn't need KC_.
   // Otherwise, it needs KC_*
   // Default layer.
-  [BASE] = KEYMAP(
+  [BASE] = LAYOUT_ergodox(
     // Left hand.
     KC_ESC,              KC_1,           KC_2,          KC_3,         KC_4,    KC_5,    LALT(KC_GRV),
     KC_TAB,              KC_Q,           KC_W,          KC_E,         KC_R,    KC_T,    LCTL(LGUI(KC_LEFT)),
@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *                                 `--------------------'       `--------------------'
    */
   // Function and any other keys.
-  [MOFUNC] = KEYMAP(
+  [MOFUNC] = LAYOUT_ergodox(
     // left hand.
     M(0),    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_TRNS,
     KC_TRNS, KC_TRNS, KC_UP,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
