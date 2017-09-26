@@ -1,5 +1,6 @@
-FROM debian:jessie
-MAINTAINER Erik Dasque <erik@frenchguys.com>
+# krymtkts/qmk_firmware
+FROM debian:stretch
+MAINTAINER krymtkts
 
 RUN apt-get update && apt-get install --no-install-recommends -y build-essential \
     gcc \
@@ -18,10 +19,6 @@ RUN apt-get update && apt-get install --no-install-recommends -y build-essential
     software-properties-common \
     avrdude \
     && rm -rf /var/lib/apt/lists/*
-
-ENV keyboard=ergodox
-ENV subproject=ez
-ENV keymap=default
 
 VOLUME /qmk
 WORKDIR /qmk
