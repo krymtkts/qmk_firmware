@@ -1,1 +1,1 @@
-# The Krymtkts Planck Layout
+# The Planck krymtkts Custom Layout
