@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *                                        | Esc  |      |       |      |  Del |
    *                                 ,------|------|------|       |------+------+------.
    *                                 |      |      |      |       |      |      |      |
-   *                                 |Space/| Back/|------|       |------| Tab/ |Enter/|
+   *                                 |Space/| Tab/ |------|       |------| Back/ |Enter/|
    *                                 |  LT1 | Ctrl |      |       |      | Ctrl | LT1  |
    *                                 `--------------------'       `--------------------'
    */
